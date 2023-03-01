@@ -1,5 +1,10 @@
 name: tests
 
+on:
+  push:
+    branches-ignore:
+      -main
+
 jobs:
   run-all-tests:
     runs-on: self-hosted
