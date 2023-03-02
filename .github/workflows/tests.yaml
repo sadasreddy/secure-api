@@ -25,4 +25,4 @@ jobs:
 #          arguments: build
 
       - name: Run build with Gradle Wrapper
-        run: ./gradlew build
+        run: ./gradlew build --stacktrace
