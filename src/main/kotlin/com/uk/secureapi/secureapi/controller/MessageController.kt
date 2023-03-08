@@ -12,7 +12,7 @@ class MessageController {
     fun index() = listOf<Message>(
         Message("1", "Hello!"),
         Message("2", "Mister"),
-        Message("3", "boy!")
+        Message("3", "boy!"),
         Message("4", "girl!")
     )
 }
