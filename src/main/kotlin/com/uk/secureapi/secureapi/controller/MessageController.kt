@@ -13,5 +13,6 @@ class MessageController {
         Message("1", "Hello!"),
         Message("2", "Mister"),
         Message("3", "boy!")
+        Message("4", "girl!")
     )
 }
